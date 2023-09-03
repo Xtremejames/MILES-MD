@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "pm2 start . --attach --namespace levanter --name levanter",
-		"lev":"pm2 start index.js",
+		"lev":"pm2 start . --attach",
 		"stop": "pm2 stop levanter"
 	},
 	"author": "",
