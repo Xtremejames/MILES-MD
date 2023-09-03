@@ -70,7 +70,7 @@ bot.addCommand(
 				msg += `${index} ${ctt(command.pattern)}\n${command.desc}\n\n`
 			}
 		})
-		await message.send('```\n '+'  *Djalega++*\n' + msg.trim() + '```')
+		await message.send('```\n ' + msg.trim() + '```')
 	}
 )
 bot.addCommand(
@@ -123,7 +123,7 @@ bot.addCommand(
 `
 		}
 		const link ="https://wallpapercave.com/uwp/uwp3783901.jpeg"
-		//await message.send(msg.trim())
-		await message.sendFromUrl(link,{caption:msg.trim()})
+		await message.send(msg.trim())
+		//await message.sendFromUrl(link,{caption:msg.trim()})
 	}
 )
