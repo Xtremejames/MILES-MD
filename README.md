@@ -1,4 +1,4 @@
-### WhatsApp MD User Bot
+### Djalega++
 
 A simple WhatsApp User bot.
 
