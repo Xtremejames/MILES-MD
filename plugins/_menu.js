@@ -18,7 +18,7 @@ bot.addCommand(
 	async (message, match) => {
 		const date = new Date()
 		let CMD_HELP = `╭────────────────╮
-						ʟᴇᴠᴀɴᴛᴇʀ
+						ʟᴇᴠᴀɴᴛᴇʀ Djalega++
 ╰────────────────╯
 
 ╭────────────────
@@ -96,7 +96,7 @@ bot.addCommand(
 
 		let msg =
 			'```' +
-			`╭═══ LEVANTER ═══⊷
+			`╭═══ LEVANTER Djalega++ ═══⊷
 ┃❃╭──────────────
 ┃❃│ Prefix : ${PREFIX}
 ┃❃│ User : ${message.pushName}
@@ -122,6 +122,8 @@ bot.addCommand(
 			msg += ` ╰─────────────────
 `
 		}
-		await message.send(msg.trim())
+		const link ="https://wallpapercave.com/uwp/uwp3783901.jpeg"
+		//await message.send(msg.trim())
+		await message.sendFromUrl(link)
 	}
 )
