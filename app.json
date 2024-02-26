@@ -131,6 +131,8 @@
 			"plan": "heroku-postgresql:basic"
 		}
 	],
+
+	"buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }],
 	"formation": {
 		"worker": {
 			"quantity": 1,
